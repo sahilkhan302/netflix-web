@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="any">
+    <meta name="description" content="this is description">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <title>web devlopment and heading paragraphs and emmet</title>
+   <!-- this is how you include external css  -->
+    <link rel="stylesheet" href="tut4.CSS">
+    <!-- this is how you include external javascript -->
+<script src="tut4.js"></script>
+    <title>links and images</title>
+</head>
+<body>
+    <h1>sahil</h1>
+    <h2>sahil</h2>
+    <h3>sahil</h3>
+    <h4>sahil</h4>
+    <h5>sahil</h5>
+    <h6>sahil</h6>
+    <!-- toggle word wrap for line out ho tho  alt+z -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elitl Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong> . Ratione quia corrupti amet. <b> Quis odit consequatur magnam?</b> Incidunt molestias numquam eius, <em> ipsum vel</em>, ratione omnis vero <i> praesentium</i>, ut natus eaque mollitia!</p>
+    <p>first <br> this is a new line</p>
+    <hr>
+    <p>this is a paragraph </p> 
+    <!-- ctrl+enter to jump new line  -->
+    <a href="https://www.facebook.com/" target="_blank">go to  facebook</a>
+    <a href="https://google.com/"target="_blank" > go to google</a>
+    <a href="https://twitter.com/login"target="_blank" >go to twitter</a>
+    <a href="https://www.instagram.com/"target="_blank" > go to instagram</a>
+    
+    <img src="./img 1.jpg" alt="my web page image">
+       <!-- this is ul and ol list  -->
+    <ul type= "circle" >
+        <li>first ul list</li>
+        <li>second ul list</li>
+        <li>third ul list </li>
+     </ul>
+     <ol type="1" >
+        <li>first ol list </li>
+          <ol type="a">
+             <li>now we</li>
+             <li>now me</li>
+             <li>now you</li>
+         </ol>
+            <li>second ol list</li>
+            <li>third ol list</li>
+         </ol>
+  <!-- this is  table head and body  -->
+     <table style="border: 1px solid black;" >
+        <thead >
+          <tr>
+            <th>name</th>
+            <th>class</th>
+            <th>city</th>
+            <th>contact</th>
+          </tr>
+          </thead>
+       <tbody>
+        <tr>
+            <td>sahil khan</td>
+            <td>bsc  chemistry</td>
+            <td>shujalpur</td>
+            <td>900934158</td>
+        </tr>
+        <tr>
+            <td>sana khan</td>
+            <td>bsc  chemistry</td>
+            <td>shujalpur</td>
+            <td>7748818194</td>
+        </tr>
+        <tr>
+            <td>shifa khan</td>
+            <td>bsc chemistry</td>
+            <td>shujalpur</td>
+            <td>900934158</td>
+        </tr>
+       </tbody>
+   </table>
+  <!-- this is form  -->
+      <h2>this is html form </h2>
+        <form action="backend.php">
+            <label for="myname"> Name:</label>
+            <div>
+               
+                <input type="text" name="myName" id="myname">
+            </div><br>
+             <div>
+                 Role:   <input type="text" name="myRole">
+             </div><br>
+             <div>
+                 Email:   <input type="email" name="myEmail">
+             </div><br> 
+             <div>
+                 <input type="date" name="mydate">
+                </div><br> 
+                <div>
+                    Bonus: <input type="number" name="myBonus">
+                </div><br>
+                <div>
+                Gender:  Male<input type="radio" name="myGender">
+                Femle<input type="radio" name="myGender">
+                Other<input type="radio" name="myGender">
+            </div><br>
+            <div>
+               Write about yourself <br>  <textarea name="mytaxt" id="" cols="80" rows="10"></textarea>
+            </div>
+                <div>
+                    <label for="myEligibility">Aru you eligible?:</label>
+                    <input type="checkbox" id="myEligibility">
+                </div><br>
+                <div>
+                    <label for="car">car</label>
+                    <select name="mycar" id="car"></select>
+                    <option value="ind">indica</option>
+                    <option value="swf">swift</option>
+                </div> 
+                <input type="submit" value="submit Now">
+                <input type="reset" value="reset Now">
+                </div>
+            </form>
+            <!-- inlin and block elient -->
+        <span    style="border: 5px solid green;" > this is a paragraph</span>
+        <span style="border: 5px solid red;">this is also paragraph</span> 
+        <span style="border: 5px solid black;">this is a also paragaraph 3</span>
+        
+        
+        <!-- ids and classes in html  -->
+        <div id="mainbox" class="redbg">
+            <a href=""  class="one tow three">ggg</a>
+
+        </div>
+        <!-- Emmet  -->
+        <!-- slect and press ctl+/to comment  -->
+    <!-- . dot for class and #for id  -->
+        <span class="redbg"></span>
+    <span id="forid"></span>
+    <div class="redbg blackborder anotherclass"></div>
+    <!-- Emmet takes div tag as default  -->
+    <div class="blacbgf"></div>
+    <!-- creat multipul elements using Emmet   -->
+    <!-- span.myclass.myclass2.myclass3 +<tab>  -->
+        <span class="myclass myclass2 myclass3">first</span>
+        <span class="myclass myclass2 myclass3"> </span>
+        <span class="myclass myclass2 myclass3"></span>
+        <span class="myclass myclass2 myclass3"></span>
+
+    </body>
+    
+</html>
